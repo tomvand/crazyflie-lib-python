@@ -53,7 +53,7 @@ else:
 
 class MotionCommander:
     """The motion commander"""
-    VELOCITY = 0.4
+    VELOCITY = 1.0
     RATE = 360.0 / 5
 
     def __init__(self, crazyflie, default_height=0.3):
